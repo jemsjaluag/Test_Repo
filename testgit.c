@@ -6,4 +6,5 @@ int main() {
 	printf("Git change");
 
 	printf("Another git change!");
+	printf("git commit");
 }
