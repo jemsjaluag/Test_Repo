@@ -1,9 +1,10 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int main() {
+int main(int argc, char **argv) {
 	
-	printf("Hello, world!");
-	printf("Git change");
-
-	printf("git commit");
+	if(argc > 1){
+		printf("You entered: %d\n", atoi(argv[1]));
+	}
+	else printf("Need arguments, dude.\n");
 }
